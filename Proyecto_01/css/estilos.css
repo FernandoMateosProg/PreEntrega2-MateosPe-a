@@ -1,0 +1,201 @@
+@font-face {
+    font-family:"Roboto-Light";
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto-Light";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    color: black;
+    font-weight:bolder;
+    font-size:35px;
+    font-style:italic;
+}
+
+h1{
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.h1dearticle{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #4D8BF0;
+}
+.mainindex{
+    margin: 5vh;
+}
+
+.linkheader{
+    margin-left: 200%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu{
+    text-align: center;
+    font-weight: bolder;
+    padding: 2px 30px 2px 30px;
+}
+
+
+.izquierda{
+    position: absolute;
+    text-align: center;
+}
+
+.imagenesindex{
+    position: relative;
+    padding-left: 700px;
+}
+
+a{
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+.footer{
+    position: relative;
+    top: 19vh;
+    text-align: center;
+    color: black;
+    background-color: #3bbed9;
+}
+
+.linkfooter1{
+    display:block;
+    
+}
+
+.textoalcentro{
+    text-align: center;
+}
+
+.noticia1a2{
+    display: flex;
+    text-align: justify;
+    border-style: double;
+    border-color: grey;
+}
+
+.imagenuser{
+    display: block;
+    margin: 50px;
+}
+
+.noticia1a2_1{
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia1a2_linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.noticia3a6{
+    display: flex;
+    text-align: justify;
+    border-style: double;
+    border-color: grey;
+}
+
+.imgnoticia{
+    display: inline-block;
+    margin: 5px 5px 1px 5px;
+}
+
+.primeros3{
+    display: flex;
+    align-content: center;
+    justify-content:space-evenly;
+    padding-top: 150px;
+}
+
+.nosotrostexto{
+    text-align: center;
+}
+
+.segundos3{
+    display: flex;
+    align-content: center;
+    justify-content:space-evenly;
+    padding-top: 100px;
+}
+
+/*.nosotroscompleto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding-top: 150px;
+}
+*/
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+/*NO LOGRE ACOMODARLO DE UNA MANERA MAS ODERNADA, LA IDEA ERA QUE QUEDARA COMO EN EL PROTOTIPO */ /*DESDE ACA ENTRAN LOS VALORES DE CSS PARA LA PAGINA NOSOTROS*/
+/*.nosotrosfila1{
+    position: relative;
+    justify-content: center;
+}
+
+.nosotrosfila2{
+    display: flex;
+    justify-content: center;
+}
+
+.nosotrosfila1texto{
+    display: flex;
+    
+
+}
+
+.nosotrosfila2texto{
+    display: flex;
+
+}
+
+.primeros3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.formulario{
+    border-top: solid 5px black;
+    border-right: solid 5px black;
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    padding-left: 50%;
+}
+
+
