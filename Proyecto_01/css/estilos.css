@@ -14,6 +14,7 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .titulo{
@@ -33,26 +34,29 @@ h1{
 
 .h1dearticle{
     color: black;
+    text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .header{
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     color: black;
     background-color: #4D8BF0;
 }
 .mainindex{
     margin: 5vh;
+    display: flex;
+    justify-content: center;
 }
 
 .linkheader{
-    margin-left: 200%;
-    list-style: none;
+    margin-block-end: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    list-style: none;
 }
 
 .menu{
@@ -61,15 +65,27 @@ h1{
     padding: 2px 30px 2px 30px;
 }
 
+.sectionmain{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
 
 .izquierda{
-    position: absolute;
+    margin: 15px;
+    display: inline;
     text-align: center;
 }
 
+.textonegrita{
+    font-weight: bolder;
+}
+
 .imagenesindex{
-    position: relative;
-    padding-left: 700px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 a{
@@ -85,9 +101,15 @@ a{
     background-color: #3bbed9;
 }
 
-.linkfooter1{
-    display:block;
-    
+.linkfooterpaginas{
+    margin: 15px 50px 15px 50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.icono{
+    font-size: 3rem;
+    color: gray;
 }
 
 .textoalcentro{
@@ -103,7 +125,7 @@ a{
 
 .imagenuser{
     display: block;
-    margin: 50px;
+    text-align: center;
 }
 
 .noticia1a2_1{
@@ -113,14 +135,28 @@ a{
 
 .noticia1a2_linea{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
 }
+
 .noticia3a6{
     display: flex;
     text-align: justify;
     border-style: double;
     border-color: grey;
+}
+
+.texto_noticia_reseña{
+    margin: 10px;
+}
+
+.nombre_redactor{
+    text-align: center;
+    font-size: small;
+}
+
+img{
+    margin: 5px;
 }
 
 .imgnoticia{
@@ -146,56 +182,44 @@ a{
     padding-top: 100px;
 }
 
-/*.nosotroscompleto{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    padding-top: 150px;
-}
-*/
 
 ul{
     list-style: none;
     text-align: center;
 }
 
-/*NO LOGRE ACOMODARLO DE UNA MANERA MAS ODERNADA, LA IDEA ERA QUE QUEDARA COMO EN EL PROTOTIPO */ /*DESDE ACA ENTRAN LOS VALORES DE CSS PARA LA PAGINA NOSOTROS*/
-/*.nosotrosfila1{
-    position: relative;
-    justify-content: center;
+@media (min-width: 74px) and (max-width: 575px) {
+    .tamañofuente{
+        font-size: xx-small;
+    }
 }
 
-.nosotrosfila2{
-    display: flex;
-    justify-content: center;
+@media (min-width: 576px) and (max-width: 768px) {
+    .tamañofuente{
+        font-size: medium;
+    }
 }
 
-.nosotrosfila1texto{
-    display: flex;
-    
-
+@media (min-width: 769px) and (max-width:992px) {
+    .tamañofuente{
+        font-size: smaller;
+    }
 }
 
-.nosotrosfila2texto{
-    display: flex;
-
+@media (min-width: 993px) and (max-width:1200px) {
+    .tamañofuente{
+        font-size: large;
+    }
 }
 
-.primeros3{
-    display: flex;
-    align-items: center;
-    text-align: center;
+@media (min-width: 1201px) and (max-width:1400px) {
+    .tamañofuente{
+        font-size: larger;
+    }
 }
 
-
-
-.formulario{
-    border-top: solid 5px black;
-    border-right: solid 5px black;
-    border-bottom: solid 5px black;
-    border-left: solid 5px black;
-    padding-left: 50%;
+@media (min-width: 1401px) {
+    .tamañofuente{
+        font-size: x-large;
+    }
 }
-
-
