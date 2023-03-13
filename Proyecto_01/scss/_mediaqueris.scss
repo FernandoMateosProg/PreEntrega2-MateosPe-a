@@ -1,0 +1,35 @@
+@media (min-width: 74px) and (max-width: 575px) {
+    .tamañofuente{
+        font-size: xx-small;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .tamañofuente{
+        font-size: medium;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+    .tamañofuente{
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 993px) and (max-width:1200px) {
+    .tamañofuente{
+        font-size: large;
+    }
+}
+
+@media (min-width: 1201px) and (max-width:1400px) {
+    .tamañofuente{
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1401px) {
+    .tamañofuente{
+        font-size: x-large;
+    }
+}
